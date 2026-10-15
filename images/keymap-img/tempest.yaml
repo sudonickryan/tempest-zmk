@@ -38,7 +38,7 @@ layers:
   - {t: ↹, h: ⌃}
   - {t: ⏎, h: number}
   - {t: ⌫, h: symbol}
-  - {t: ⇧, h: sticky}
+  - {t: ⇧, h: ⌘}
   nav:
   - MOUSE ←
   - MOUSE ↓
