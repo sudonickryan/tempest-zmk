@@ -11,18 +11,18 @@ layers:
   - I
   - O
   - P
-  - MACRO
-  - {t: A, h: ⌘}
-  - {t: S, h: ⎇}
-  - {t: D, h: ⇧}
-  - {t: F, h: ⌃}
+  - ESC
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: ⌃}
-  - {t: K, h: ⇧}
-  - {t: L, h: ⎇}
-  - {t: ;, h: ⌘, s: ':'}
-  - MACRO
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - ''''
   - Z
   - X
   - C
@@ -33,9 +33,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
-  - ⌃
+  - ⌘
   - {t: ⎵, h: nav, s: _}
-  - {t: ↹, h: utility}
+  - {t: ↹, h: ⌃}
   - {t: ⏎, h: number}
   - {t: ⌫, h: symbol}
   - {t: ⇧, h: sticky}
@@ -87,21 +87,21 @@ layers:
   - $
   - {t: '`', s: '~'}
   - '%'
-  - £
+  - '#'
   - ^
   - {t: ▽, type: trans}
   - <
   - '>'
-  - {t: (, h: ⇧}
-  - {t: ), h: ⌃}
+  - (
+  - )
   - '-'
   - '='
-  - {t: '''', h: ⌃}
-  - {t: '&', h: ⇧}
+  - ''''
+  - '&'
   - '@'
   - ':'
   - {t: ▽, type: trans}
-  - \
+  - {t: \, s: '|'}
   - {t: /, s: '?'}
   - '['
   - ']'
@@ -109,8 +109,8 @@ layers:
   - _
   - '"'
   - '|'
-  - '#'
   - '~'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,14 +130,14 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - '1'
-  - {t: '2', h: ⎇}
-  - {t: '3', h: ⇧}
-  - {t: '4', h: ⌃}
+  - '2'
+  - '3'
+  - '4'
   - '5'
   - '6'
-  - {t: '7', h: ⌃}
-  - {t: '8', h: ⇧}
-  - {t: '9', h: ⎇}
+  - '7'
+  - '8'
+  - '9'
   - '0'
   - {t: ▽, type: trans}
   - F23
@@ -190,10 +190,10 @@ layers:
   - SCROLL ↑
   - FORWARD
   - BT CLR
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - LClk
+  - {t: ▽, type: trans}
+  - {t: LClk, type: held}
   - RClk
   meh:
   - Meh+Q
@@ -230,96 +230,17 @@ layers:
   - Meh+/
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [15, 16]
-  k: ⇪ WORD
-  l: [default]
-- p: [1, 0]
-  k: ESC
-  l: [default]
-- p: [9, 20]
-  k: 'VOL
-
-    UP'
-  l: [default]
-- p: [20, 31]
-  k: 'VOL
-
-    DOWN'
-  l: [default]
-- p: [4, 5]
-  k: ⇪ LOCK
-  l: [default]
-- p: [9, 8]
-  k: ⌦
-  l: [default]
-- p: [24, 25]
-  k: _
-  l: [default]
-- p: [3, 2]
+- p: [8, 9]
   k: '-'
   l: [default]
-- p: [2, 3, 1]
-  k: '---'
-  l: [default]
-- p: [4, 0, 5, 9]
-  k: F19
-  l: [default]
-  hidden: true
-- p: [6, 7]
-  k: ''''
-  l: [default]
-- p: [7, 8]
-  k: '"'
-  l: [default]
-- p: [28, 29]
-  k: '='
-  l: [default]
-- p: [29, 30]
-  k: '#'
-  l: [default]
-- p: [11, 12]
-  k: ESC
+- p: [0, 1]
+  k: {t: '`', s: '~'}
   l: [default]
 - p: [22, 23]
-  k: ↹
+  k: ⇪ LOCK
   l: [default]
-- p: [1, 2]
-  k: ':'
-  l: [default]
-- p: [32, 33, 34, 0]
-  k: F11
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 4]
-  k: DEL
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 1]
-  k: F2
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 2]
-  k: F8
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 3]
-  k: F10
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 14]
-  k: ↑
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 13]
-  k: ↓
-  l: [default]
-  hidden: true
-- p: [32, 33, 34, 15]
-  k: ENTER
-  l: [default]
-  hidden: true
