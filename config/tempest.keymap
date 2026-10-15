@@ -143,7 +143,7 @@
              &kp Q         &kp W            &kp E              &kp R         &kp T      &kp Y      &kp U            &kp I               &kp O            &kp P
 &kp ESC      &kp A         &kp S            &kp D              &kp F         &kp G      &kp H      &kp J            &kp K               &kp L            &kp SEMICOLON  &kp SQT
              &kp Z         &kp X            &kp C              &kp V         &kp B      &kp N      &kp M            &kp COMMA           &kp DOT          &kp FSLH
-                                            &cmd_del LGUI DELETE &lt 2 BACKSPACE  &mt LCTRL TAB  &lt 3 RET  &lt 1 SPACE  &cmd_shift RGUI RIGHT_SHIFT
+                                            &cmd_del LGUI DELETE &lt 1 BACKSPACE  &mt LCTRL TAB  &lt 3 RET  &lt 2 SPACE  &cmd_shift RGUI RIGHT_SHIFT
             >;
         };
 
