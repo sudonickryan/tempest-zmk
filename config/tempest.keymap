@@ -70,6 +70,13 @@
     };
 
     macros {
+        // vim ctrl-w + direction
+        pane: pane {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&kp LC(W)>, <&macro_param_1to1>, <&kp MACRO_PLACEHOLDER>;
+        };
+
         arrow_func: arrow_func {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -183,11 +190,10 @@
             >;
         };
 
-        // F17-F20 on h/j/k/l are vim pane moves in dotfiles nvim/keymaps.lua
         meh {
             bindings = <
         &kp LS(LA(LC(Q)))  &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))  &kp LS(LA(LC(R)))  &kp LS(LA(LC(T)))  &kp LS(LA(LC(Y)))  &kp LS(LA(LC(U)))  &kp LS(LA(LC(I)))      &kp LS(LA(LC(O)))    &kp LS(LA(LC(P)))
-&trans  &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &kp LS(LA(LC(F)))  &kp LS(LA(LC(G)))  &kp F17            &kp F18            &kp F19                &kp F20              &kp LS(LA(LC(SEMI)))  &trans
+&trans  &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &kp LS(LA(LC(F)))  &kp LS(LA(LC(G)))  &pane H            &pane J            &pane K                &pane L              &kp LS(LA(LC(SEMI)))  &trans
         &kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LS(LA(LC(V)))  &kp LS(LA(LC(B)))  &kp LS(LA(LC(N)))  &kp LS(LA(LC(M)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(DOT)))  &kp LS(LA(LC(FSLH)))
                                               &trans             &trans             &trans             &trans             &trans             &trans
             >;

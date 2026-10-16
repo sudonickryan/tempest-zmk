@@ -212,10 +212,10 @@ layers:
   - Meh+D
   - Meh+F
   - Meh+G
-  - F17
-  - F18
-  - F19
-  - F20
+  - '&pane H'
+  - '&pane J'
+  - '&pane K'
+  - '&pane L'
   - {t: Meh+;, s: 'Meh+:'}
   - {t: ▽, type: trans}
   - Meh+Z
