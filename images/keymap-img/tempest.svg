@@ -1124,19 +1124,19 @@ path.combo {
 </g>
 <g transform="translate(622, 104)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Meh+H</text>
+<text x="0" y="0" class="key tap">F17</text>
 </g>
 <g transform="translate(678, 95)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Meh+J</text>
+<text x="0" y="0" class="key tap">F18</text>
 </g>
 <g transform="translate(734, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Meh+K</text>
+<text x="0" y="0" class="key tap">F19</text>
 </g>
 <g transform="translate(794, 102) rotate(4.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Meh+L</text>
+<text x="0" y="0" class="key tap">F20</text>
 </g>
 <g transform="translate(852, 131) rotate(8.0)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
